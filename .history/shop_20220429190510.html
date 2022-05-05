@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" stylesheet="text/style.css" />
+
+    <!-- googel fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- App.js -->
+    <script src="./app.js">
+    </script>
+
+    <title>Shop</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header-wrapper">
+        <div class="center">
+            <div class="row">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="" />
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Feauture</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- silder -->
+    <div class="slider-wrapper">
+        <div class="slider-img">
+            <img src="./images/shop-slide.jpg" alt="" />
+
+            <div class="center">
+                <div class="shop-slide-content">
+                    <h2 class="heading">Shop Page</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shop-page-wrapper">
+        <div class="center">
+            <div class="box-shop-page">
+                <!-- filter by price -->
+                <div class="price-filter-wrapper">
+                    <div class="box-price-filter">
+                        <h4>filter by price</h4>
+                        <div class="price-range-bar">
+                            <form class="multi-range-field my-5 pb-5">
+                                <input id="multi3" class="multi-range" type="range" />
+                            </form>
+
+                            <div class="price-range">
+                                <span>Price</span>
+                                <span> $30 </span> -
+                                <span> $50 </span>
+                            </div>
+
+                            <div class="filter-btn">
+                                <p>filter</p>
+                            </div>
+                        </div>
+                    </div>     
+                    <div class="catory-wrapper">
+                        <div class="box-catory">
+                            <h2>Categories</h2>
+                        </div>
+                        <div class="category">
+                            <ul>
+                               <li><a href="">Green Tea</a></li>
+                               <li><a href="">Black Tea</a></li>
+                               <li><a href="">Organic Tea</a></li>
+                               <li><a href="">Loose Tea</a></li>
+                            </ul>
+                        </div>
+                        <div class="box-catory">
+                            <h2>Tags</h2>
+                        </div>  
+                        <div class="category1">
+                           <ul clas="list">
+                               <li><a href="" class="btn">Green Tea</a></li>
+                               <li><a href="" class="btn">Black Tea</a></li>
+                               <li><a href="" class="btn">Organic Tea</a></li>
+                               <li><a href="" class="btn">Green Tea</a></li>
+                           </ul>
+                        </div>
+                    </div>              
+                </div>
+
+                <!-- shop-product -->
+                <div class="shop-product-wrapper">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="images/product-1.jpg">
+                            <h3 class="title">Loose Tea</h3>
+                            <p>$12.99 - <del>$15.00</del></p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
