@@ -744,8 +744,8 @@ ul{
 }
 .shop {
     flex-basis: 45%;
-    min-width: 200px;
-    margin-bottom: 70px;
+    min-width: 300px;
+    margin-bottom: 10px;
 }
 .shop img{
     width: 100%;

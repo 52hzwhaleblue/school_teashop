@@ -730,25 +730,25 @@ ul{
 .btn2:hover{
     color:#6fbc29;
 }
-.row1{
-    display: flex;
-    /* align-items: center; */
+.shop-product-wrapper{
+    display: inline;
+    align-items: top;
     flex-wrap: wrap;
     justify-content: space-around;
-} 
-.shop-product-wrapper{
-    max-width: 580px;
-    margin: auto;
-   /*  padding-left: 500px; */
-    padding-right: 10px;
+    padding: 20px;
+    margin: 10px;
 }
-.shop {
-    flex-basis: 45%;
-    min-width: 200px;
-    margin-bottom: 70px;
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .shop img{
-    width: 100%;
-
+    width: 170%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 /* ----Product---- */
+

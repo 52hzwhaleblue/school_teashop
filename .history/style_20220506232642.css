@@ -743,9 +743,9 @@ ul{
     padding-right: 10px;
 }
 .shop {
-    flex-basis: 45%;
+    flex-basis: 55%;
     min-width: 200px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 .shop img{
     width: 100%;

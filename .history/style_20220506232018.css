@@ -738,17 +738,18 @@ ul{
 } 
 .shop-product-wrapper{
     max-width: 580px;
-    margin: auto;
-   /*  padding-left: 500px; */
-    padding-right: 10px;
+    /* margin: auto; */
+    padding-left: 500px;
+    padding-right: 100px;
 }
 .shop {
-    flex-basis: 45%;
+    flex-basis: 25%;
     min-width: 200px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 .shop img{
     width: 100%;
 
 }
+
 /* ----Product---- */

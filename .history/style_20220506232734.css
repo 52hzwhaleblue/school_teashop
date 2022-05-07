@@ -745,10 +745,10 @@ ul{
 .shop {
     flex-basis: 45%;
     min-width: 200px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .shop img{
-    width: 100%;
+    width: 120%;
 
 }
 /* ----Product---- */
