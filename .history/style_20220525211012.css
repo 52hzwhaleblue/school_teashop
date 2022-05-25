@@ -6,7 +6,6 @@
 
 body {
     background-color: #f8f8f8;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -762,9 +761,6 @@ p{
     text-align: center;
 }
 /* -----account----- */
-.account-page{
-    padding: 100px 0;
-}
 .form-container{
     background: #fff;
     width: 300px;
@@ -822,7 +818,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #6fbc29;
+    background: #ff523b;
     height: 3px;
     margin-top: 8px;
     transform: translateX(50px);
@@ -847,7 +843,7 @@ form a{
 
 .btn {
     display: inline-block;
-    background: #6fbc29;
+    background: #ff523b;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;

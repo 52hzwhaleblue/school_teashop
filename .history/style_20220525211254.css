@@ -6,7 +6,6 @@
 
 body {
     background-color: #f8f8f8;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -763,7 +762,8 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 100px 0;
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .form-container{
     background: #fff;
@@ -847,7 +847,7 @@ form a{
 
 .btn {
     display: inline-block;
-    background: #6fbc29;
+    background: #ff523b;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;

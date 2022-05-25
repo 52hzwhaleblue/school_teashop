@@ -1,12 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
     background-color: #f8f8f8;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -763,7 +761,8 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 100px 0;
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .form-container{
     background: #fff;
@@ -822,10 +821,10 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #6fbc29;
+    background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(50px);
+    transform: translateX(100px);
     transition: transform 1s;
 }
 .container {
@@ -844,10 +843,13 @@ form a{
     flex-basis: 50%;
     min-width: 300px;   
 }
-
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
 .btn {
     display: inline-block;
-    background: #6fbc29;
+    background: #ff523b;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -861,3 +863,24 @@ form a{
     font-size: 14px;
     padding: 60px 0 20px;
 } */
+@media only screen and (max-width: 800px) {
+    .row{
+        text-align: center;
+    }
+    .col-2{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info p{
+        display: none;
+    }
+}

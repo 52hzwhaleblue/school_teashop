@@ -763,7 +763,8 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 100px 0;
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .form-container{
     background: #fff;

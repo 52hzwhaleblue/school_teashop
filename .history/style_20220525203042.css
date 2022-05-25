@@ -1,12 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
     background-color: #f8f8f8;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -763,7 +761,8 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 100px 0;
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .form-container{
     background: #fff;
@@ -822,37 +821,11 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #6fbc29;
+    background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(50px);
+    transform: translateX(100px);
     transition: transform 1s;
-}
-.container {
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right:25px;
-}
-.row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} 
-.col-2 {
-    flex-basis: 50%;
-    min-width: 300px;   
-}
-
-.btn {
-    display: inline-block;
-    background: #6fbc29;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
 }
 /* -----footer---------- */
 /* .footer{
