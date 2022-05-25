@@ -762,7 +762,7 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 150px 0;
+    padding: 5100px 0;
     
 }
 .form-container{
@@ -853,67 +853,6 @@ form a{
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
-}
-/* ----------------cart------------ */
-.small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-  
-}
-.cart-page{
-    margin: 80px auto;
-}
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-.cart-info{
-    display: flex;
-    flex-wrap: wrap;
-}
-th{
-    text-align: left;
-    padding: 5px;
-    color: #fff;
-    background: #6fbc29;
-    font-weight: normal;
-}
-td{
-    padding: 10px 5px;
-}
-td input{
-    width: 40px;
-    height: 30px;
-    padding: 5px;
-}
-td a{
-    color: #6fbc29;
-    font-size: 12px;
-}
-td img{
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
-}
-.total-price{
-    display: flex;
-    justify-content: flex-end;
-}
-.total-price table{
-    border-top: 3px solid  #6fbc29;
-    width: 100%;
-    max-width: 350px;
-}
-td:last-child{
-    text-align: right;
-}
-th:last-child{
-    text-align: right;
-}
-a{
-    text-decoration: none;
 }
 /* -----footer---------- */
 /* .footer{

@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -718,7 +717,7 @@ ul{
 .col-2 img {
     width: 130%;
     height: 60px;
-   /*  padding: 10px 0; */
+    padding: 10px 0;
     margin: 30px 20;
 }
 .btn2{
@@ -762,8 +761,8 @@ p{
 }
 /* -----account----- */
 .account-page{
-    padding: 150px 0;
-    
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .form-container{
     background: #fff;
@@ -801,13 +800,13 @@ form input{
    padding: 0 10px;
    border: 1px solid #ccc;
 }
-form .btn3{
+form .btn{
     width: 100%;
     border: none;
     cursor: pointer;
     margin: 10px 0;
 }
-form .btn3:focus{
+form .btn:focus{
     outline: none;
 }
 #LoginForm{
@@ -822,7 +821,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #6fbc29;
+    background: #ff523b;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
@@ -834,87 +833,26 @@ form a{
     padding-left: 25px;
     padding-right:25px;
 }
-.row3 {
+/* .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-} 
-.col-6 {
+}  */
+/* .col-2 {
     flex-basis: 50%;
     min-width: 300px;   
-}
+} */
 
-.btn3 {
+/* .btn {
     display: inline-block;
-    background: #6fbc29;
+    background: #ff523b;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
-}
-/* ----------------cart------------ */
-.small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-  
-}
-.cart-page{
-    margin: 80px auto;
-}
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-.cart-info{
-    display: flex;
-    flex-wrap: wrap;
-}
-th{
-    text-align: left;
-    padding: 5px;
-    color: #fff;
-    background: #6fbc29;
-    font-weight: normal;
-}
-td{
-    padding: 10px 5px;
-}
-td input{
-    width: 40px;
-    height: 30px;
-    padding: 5px;
-}
-td a{
-    color: #6fbc29;
-    font-size: 12px;
-}
-td img{
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
-}
-.total-price{
-    display: flex;
-    justify-content: flex-end;
-}
-.total-price table{
-    border-top: 3px solid  #6fbc29;
-    width: 100%;
-    max-width: 350px;
-}
-td:last-child{
-    text-align: right;
-}
-th:last-child{
-    text-align: right;
-}
-a{
-    text-decoration: none;
-}
+} */
 /* -----footer---------- */
 /* .footer{
     background: #111619;
