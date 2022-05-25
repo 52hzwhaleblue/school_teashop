@@ -46,15 +46,15 @@ a {
 }
 
 .title-main {
-  padding-bottom: 20px;
-  margin: auto;
-}
+  
+  
+padding: 20px 0;}
 
 .title-main h3 {
   font-family: "Playfair Display";
   font-size: 35px;
   text-transform: capitalize;
-  color: #212529;
+  color: #fff;
   text-align: center;
 }
 
@@ -442,7 +442,7 @@ margin-bottom: 40px;}
 
 .gioithieu-wrapper {
   background-color: #f8f8f8;
-margin-bottom: 40px;}
+margin-bottom: 40px;background: url(https://preview.hasthemes.com/rongcha/img/banner/bg-2.jpg) no-repeat fixed right top / cover;}
 
 .gioithieu-wrapper .wrap-content {
     display: flex;
@@ -451,7 +451,7 @@ margin-bottom: 40px;}
 
 .gioithieu-left {
     width: 59.3495934959%;
-}
+visibility: hidden;}
 
 .gioithieu-right {
     width:41.8699186992%;
@@ -464,14 +464,14 @@ margin-bottom: 40px;}
 
 .gioithieu-content h2 {
   font-size: 35px;
-  font-family: "Playfair Display", serif;
-}
+  color: #fff;font-family: Leckerli One;
+font-weight: 400;}
 
 .gioithieu-content p {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   margin: 10px 0;
-}
+color: #fff;}
 
 .gioithieu-wrapper .readmore-info-btn {
   width: 130px;
@@ -530,10 +530,12 @@ margin-bottom: 40px;}
   width: calc(100% / 3);
 }
 
- .album-item .img {
+.album-img {
   position: relative;
 }
-
+.album-img > img {
+  border-radius: 50%;
+}
 .album-modal {
   border-radius: 50%;
 }
@@ -557,9 +559,8 @@ margin-bottom: 40px;}
   font-size: 14px;
 }
 
-.featured-product-items .item img {
-  border-radius: 50%;
-}
+
+
 
 /* Information Wrapper */
 
@@ -623,10 +624,10 @@ margin-bottom: 40px;}
 /* video */
 
 .video-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
+  
+  
+  
+background: url(./images/video-bg.jpg);}
 
 .bg-overlay {
   position: relative;
@@ -644,22 +645,20 @@ margin-bottom: 40px;}
   width: 100%;
 }
 
-.video-wrapper .center {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
+.video-wrapper .wrap-content {
+  
+  
+padding: 50px 15px;}
 
 .video-wrapper img {
   width: 100%;
 }
 
 .video-wrapper .title-main {
-  top: 0;
-  position: absolute;
-  z-index: 2;
-  margin-top: 55px;
+  
+  
+  
+  
 }
 
 .video-wrapper .title-main .title {
@@ -675,12 +674,8 @@ margin-bottom: 40px;}
 }
 
 .box-video {
-  /* width: 890px;
-    height: 442px; */
-  bottom: 25%;
-  z-index: 1;
-  position: absolute;
-}
+
+display: flex;justify-content: center;}
 
 /* Shop Page */
 
