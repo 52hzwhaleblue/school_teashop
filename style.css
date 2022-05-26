@@ -19,15 +19,6 @@ body {
     background-color: #f8f8f8;
 }
 
-/* General */
-a, a:hover{
-  text-decoration: none;
-}
-.wrap-content{
-  max-width: 1230px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 /* Scale IMG */
 .scale-img {
@@ -202,6 +193,79 @@ p.subTitle {
   overflow: hidden;
 }
 
+.slider-img {
+    display: flex;
+    
+}
+
+.slider-img img {
+    max-width: 1368px;
+}
+.slider-img input{
+    display: none;
+}
+
+
+.slider-wrapper .home-slide-content {
+    width: 446px;
+    position: absolute;
+    top: 20%;
+    left: calc((100% - 1200px) / 2);
+}
+
+.slider-wrapper .shop-slide-content {
+    width: 446px;
+    position: absolute;
+    top: 50%;
+    left: calc(100% /2.1);
+}
+
+.home-slide-content .heading {
+  text-transform: uppercase;
+  font-family: "SofiaPro";
+  font-size: 16px;
+  color: #fff;
+}
+
+.shop-slide-content .heading {
+  text-transform: capitalize;
+  font-family: "SofiaPro";
+  /* font-size: 50px; */
+  color: #fff;
+}
+
+
+.home-slide-content .subHeading {
+  text-transform: capitalize;
+  font-family: "SofiaPro";
+  font-size: 50px;
+  padding: 26px 0 50px 0;
+  color: #fff;
+}
+
+.home-slide-content .subHeading span {
+    color: #6fbc29;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.home-slide-content .slider-btn {
+    width: 130px;
+    /* height: 35px; */
+    background-color: #6fbc29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-btn a {
+  font-family: "SofiaPro";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+}
 
 /* HÃ¬nh áº£nh danh má»¥c cáº¥p 1 */
 .slideprod-wrapper {
