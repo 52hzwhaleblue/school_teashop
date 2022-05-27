@@ -1206,10 +1206,10 @@ a{
 .single-product{
   margin-top: 80px;
 }
-.single-product .product img{
+.single-product .col-2 img{
   padding: 0;
 }
-.single-product .product {
+.single-product .col-2{
   padding: 20px;
 }
 .single-product h4{
@@ -1244,19 +1244,4 @@ input:focus{
 .small-img-col{
   flex-basis: 24%;
   cursor: pointer;
-}
-.productdetail{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.product h1{
-  font-size: 50px;
-  line-height: 60px;
-  margin: 25px 0;
-}
-.product{
-  flex-basis: 50%;
-  min-width: 300px;
 }
