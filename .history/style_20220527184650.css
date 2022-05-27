@@ -1248,15 +1248,4 @@ input:focus{
 .productdetail{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.product h1{
-  font-size: 50px;
-  line-height: 60px;
-  margin: 25px 0;
-}
-.product{
-  flex-basis: 50%;
-  min-width: 300px;
 }

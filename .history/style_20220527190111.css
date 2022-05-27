@@ -1260,3 +1260,7 @@ input:focus{
   flex-basis: 50%;
   min-width: 300px;
 }
+.single-product .product{
+  padding: 20px;
+
+}

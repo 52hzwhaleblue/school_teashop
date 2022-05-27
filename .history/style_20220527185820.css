@@ -1257,6 +1257,6 @@ input:focus{
   margin: 25px 0;
 }
 .product{
-  flex-basis: 50%;
+  flex-basis: 50px;
   min-width: 300px;
 }

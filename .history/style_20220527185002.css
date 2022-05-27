@@ -1254,9 +1254,4 @@ input:focus{
 .product h1{
   font-size: 50px;
   line-height: 60px;
-  margin: 25px 0;
-}
-.product{
-  flex-basis: 50%;
-  min-width: 300px;
 }
