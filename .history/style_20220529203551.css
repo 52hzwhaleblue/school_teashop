@@ -1293,7 +1293,7 @@ input:focus{
 }
 .mytabs label{
   padding: 25px;
-  background: #fff;
+  background: #e2e2ee;
   font-weight: bold;
 }
 .mytabs .tab{
@@ -1306,6 +1306,4 @@ input:focus{
 .mytabs input[type='radio']:checked + label + .tab {
   display: block;
 }
-.mytabs input[type="radio"]:checked + label{
-  background: #6fbc29;
-}
+.mytabs input[type="radio"]

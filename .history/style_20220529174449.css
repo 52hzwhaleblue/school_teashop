@@ -978,16 +978,16 @@ ul {
 }
 .btn {
   display: inline-block;
-  background: #6fbc29 ;
-  color: #fff;
+  background: #fff ;
+  color: #000000;
   padding: 8px 10px;
-  margin: 20px 5px;
-  border: 1px solid #6fbc29;
+  margin: 5px 5px;
+  border: 1px solid #cccccc;
 }
 
 .btn:hover {
-  background: #fff;
-  color: #6fbc29;
+  background: #6fbc29;
+  color: #fff;
 }
 .category1 ul li a {
   text-decoration: none;
@@ -1210,14 +1210,14 @@ a{
   padding: 10px;
   margin-top: 20px;
 }
-/* .single-product input{
+.single-product input{
   width: 50px;
   height: 40px;
   padding-left: 10px;
   font-size: 20px;
   margin-right: 10px;
   border: 1px solid #6fbc29;
-} */
+}
 input:focus{
   outline: none;
 }
@@ -1280,32 +1280,4 @@ input:focus{
 }
 .product2{
   margin-top: 5px;
-}
-.mytabs {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  /* margin: 50px auto;
-  padding: 25px; */
-} 
-.mytabs input[type="radio"] {
-  display: none;
-}
-.mytabs label{
-  padding: 25px;
-  background: #fff;
-  font-weight: bold;
-}
-.mytabs .tab{
-  width: 100%;
-  padding: 20px;
-  background: #fff;
-  order:1;
-  display: none;
-}
-.mytabs input[type='radio']:checked + label + .tab {
-  display: block;
-}
-.mytabs input[type="radio"]:checked + label{
-  background: #6fbc29;
 }

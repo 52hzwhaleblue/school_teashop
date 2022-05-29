@@ -1293,7 +1293,7 @@ input:focus{
 }
 .mytabs label{
   padding: 25px;
-  background: #fff;
+  background: #e2e2ee;
   font-weight: bold;
 }
 .mytabs .tab{
