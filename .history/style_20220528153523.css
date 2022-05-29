@@ -1260,7 +1260,6 @@ input:focus{
   min-width: 200px;
   margin-bottom: 50px;
   transform:  transform 0.5s;
-  text-align: center;
 }
 .col-4 img{
   width: 130%;

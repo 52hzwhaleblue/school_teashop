@@ -1258,14 +1258,4 @@ input:focus{
   flex-basis: 25%;
   padding: 10px;
   min-width: 200px;
-  margin-bottom: 50px;
-  transform:  transform 0.5s;
-  text-align: center;
-}
-.col-4 img{
-  width: 130%;
-}
-.row-2{
-  justify-content: space-between;
-  margin: 100px auto 50px;
 }
