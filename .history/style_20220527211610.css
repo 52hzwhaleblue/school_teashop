@@ -978,16 +978,16 @@ ul {
 }
 .btn {
   display: inline-block;
-  background: #6fbc29 ;
-  color: #fff;
+  background: #fff;
+  color: #000000;
   padding: 8px 10px;
-  margin: 20px 5px;
-  border: 1px solid #6fbc29;
+  margin: 5px 5px;
+  border: 1px solid #cccccc;
 }
 
 .btn:hover {
-  background: #fff;
-  color: #6fbc29;
+  background: #6fbc29;
+  color: #fff;
 }
 .category1 ul li a {
   text-decoration: none;
@@ -1190,7 +1190,19 @@ a{
   text-decoration: none;
 }
 /* ----Product Detail---- */
-
+/* .col-2 {
+  flex-basis: 50%;
+  min-width: 300px;   
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+} */
 .single-product{
   margin-top: 80px;
 }
@@ -1198,7 +1210,7 @@ a{
   padding: 0;
 }
 .single-product .product {
-  padding: 40px;
+  padding: 20px;
 }
 .single-product h4{
   margin: 20px 0;
@@ -1222,7 +1234,7 @@ input:focus{
   outline: none;
 }
 .single-product .fa{
-  color: #6fbc29;
+  color: #ff523b;
   margin-left: 10px;
 }
 .small-img-row{
@@ -1247,63 +1259,4 @@ input:focus{
 .product{
   flex-basis: 50%;
   min-width: 300px;
-}
-.row-4{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.col-4{
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
-  transform:  transform 0.5s;
-  text-align: center;
-}
-.col-4 img{
-  width: 130%;
-}
-.row-2{
-  justify-content: space-between;
-  margin: 100px auto 50px;
-}
-.list-inline-item{
-  display: inline-block;
-}
-.list-inline-item:not(:last-child){
-  margin-right: 0.5rem;
-}
-.product1{
-  margin-top: 30px;
-}
-.product2{
-  margin-top: 5px;
-}
-.mytabs {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-} 
-.mytabs input[type="radio"] {
-  display: none;
-}
-.mytabs label{
-  padding: 25px;
-  background: #fff;
-  font-weight: bold;
-}
-.mytabs .tab{
-  width: 100%;
-  padding: 20px;
-  background: #fff;
-  order:1;
-  display: none;
-}
-.mytabs input[type='radio']:checked + label + .tab {
-  display: block;
-}
-.mytabs input[type="radio"]:checked + label{
-  background: #6fbc29;
 }

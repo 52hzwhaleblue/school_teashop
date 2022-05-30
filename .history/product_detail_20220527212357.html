@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" stylesheet="text/style.css" />
+
+    <!-- googel fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Leckerli+One:regular"
+      rel="stylesheet"
+    />
+
+    <!-- cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fotorama -->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <title>Product Detail</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header-wrapper">
+      <div class="wrap-content">
+        <div class="logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feauture</a></li>
+            <li><a href="./product_detail.html">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="cart">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- product detail -->
+    <div class="small-container single-product">
+      <div class="productdetail">
+          <div class="product">
+              <img src="images/product-1.jpg" width="100%" id="ProductImg">
+              <div class="small-img-row">
+                  <div class="small-img-col">
+                      <img src="images/product-2.jpg" width="100%" class="small-img">
+                  </div>
+                  <div class="small-img-col">
+                     <img src="images/product-3.jpg" width="100%" class="small-img">
+                 </div>
+                 <div class="small-img-col">
+                     <img src="images/product-4.jpg" width="100%" class="small-img">
+                 </div>
+                 <div class="small-img-col">
+                     <img src="images/product-6.jpg" width="100%" class="small-img">
+                 </div>
+              </div>
+          </div>
+          <div class="product">
+              <p>Home / Back Tea</p>
+              <h1>Back Tea</h1>
+              <h4>$50.00</h4>
+              <select>
+                  <option>Select Size</option>
+                  <option>XXL</option>
+                  <option>XL</option>
+                  <option>Large</option>
+                  <option>Medium</option>
+                  <option>Small</option>
+              </select>
+              <input type="number" value="1">
+              <a href="cart.html" class="btn">Add to cart</a>
+              <h3>Product Details  <i class="fa fa-indent"></i></h3>
+              <br>
+              <p>Give your summer wardrobe a style upgrade with the Tea.Team it with a pair of shorts for your
+               morning workout or a denims for an evening out with the guys.
+              </p>
+          </div>
+      </div>
+ </div>
+<!--  <div class="small-container">
+     <div class="row row-2">
+         <h2>Related Products</h2> 
+         <p>View more</p>   
+     </div>
+ </div> -->
+
+<!-- <div class="small-container">
+ <div class="row">
+     <div class="col-4">
+         <img src="images/product-9.jpg">
+         <h4>Red Printed T-Shirt</h4>
+         <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+         </div>
+         <p>$50.000</p>
+     </div>
+     <div class="col-4">
+         <img src="images/product-10.jpg">
+         <h4>Red Printed T-Shirt</h4>
+         <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+         </div>
+         <p>$50.000</p>
+     </div>
+     <div class="col-4">
+         <img src="images/product-11.jpg">
+         <h4>Red Printed T-Shirt</h4>
+         <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-half-o"></i>
+             <i class="fa fa-star-o"></i>
+         </div>
+         <p>$50.000</p>
+     </div>
+     <div class="col-4">
+         <img src="images/product-12.jpg">
+         <h4>Red Printed T-Shirt</h4>
+         <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-o"></i>
+         </div>
+         <p>$50.000</p>
+     </div>
+ </div>
+
+</div> -->
+   <!--   ------js product----- -->
+  <script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+  SmallImg[0].onclick = function()
+  {
+      ProductImg.src = SmallImg[0].src;
+  }
+  SmallImg[1].onclick = function()
+  {
+      ProductImg.src = SmallImg[1].src;
+  }
+  SmallImg[2].onclick = function()
+  {
+      ProductImg.src = SmallImg[2].src;
+  }
+  SmallImg[3].onclick = function()
+  {
+      ProductImg.src = SmallImg[3].src;
+  }
+</script>
+  </body>
+</html>
