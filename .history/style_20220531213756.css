@@ -1312,7 +1312,6 @@ input:focus{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 .footer{
   background: #000;

@@ -1349,9 +1349,9 @@ color: #8a8a8a;
 ul{
   list-style-type: none;
 }
-.app-logo{
-  margin-top: 20px;
-}
+/* .app-logo{
+  margin-top: 0px;
+} */
 .app-logo img{
   width: 140px;
 }

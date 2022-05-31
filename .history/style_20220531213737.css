@@ -1311,8 +1311,6 @@ input:focus{
 .row-5{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 .footer{
   background: #000;
