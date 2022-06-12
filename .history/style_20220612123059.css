@@ -1418,37 +1418,11 @@ ul{
 .question-wrapper .question-content i {
   position: absolute;
   left:0;
-  top: 16px;
+ /*  top: 16px; */
 }
-.question-item>p{
-  color: #333333;
-  font-size: 16px;
-  margin-bottom: 0;
-  width: 100%;
-  line-height: 49px;
-  cursor: pointer;
-}
-.contact-wrapper{
-  background-color: #6fbc29;
-  border-radius: 10px;
-  padding: 17px 14px;
-  margin-top: 10px;
-}
-.contact-wrapper h4 {
-  text-align: center;
-  border-radius: 10px;
-  padding: 12px 20px;
-  background-color: #fed23b;
-  font-size: 14px;
-  font-family: "Roboto";
-}
-.contact-wrapper p{
-  font-size: 14px;
-  font-family: "Roboto";
-  color: #fff;
-  margin-bottom: 0;
-}
-.col-6 img{
-  width: 50%;
-  height: 100px;
+.question-item-sub{
+  max-height: 1000px;
+  overflow-y: auto;
+  height: 0px;
+  display: none;
 }
