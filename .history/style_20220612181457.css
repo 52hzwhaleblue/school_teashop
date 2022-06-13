@@ -1448,7 +1448,7 @@ ul{
   color: #fff;
   margin-bottom: 0;
 }
-.col-6 img{
-  width: 50%;
-  height: 100px;
+.col-5 img{
+  width: 150%;
+  height: 60px;
 }

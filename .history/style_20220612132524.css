@@ -1443,12 +1443,8 @@ ul{
   font-family: "Roboto";
 }
 .contact-wrapper p{
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Roboto";
   color: #fff;
   margin-bottom: 0;
-}
-.col-6 img{
-  width: 50%;
-  height: 100px;
 }

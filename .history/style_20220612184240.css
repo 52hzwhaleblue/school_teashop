@@ -1448,7 +1448,10 @@ ul{
   color: #fff;
   margin-bottom: 0;
 }
-.col-6 img{
-  width: 50%;
+.col-5 img{
+  width: 200%;
   height: 100px;
 }
+/* .btn5{
+  padding: 60px;
+} */

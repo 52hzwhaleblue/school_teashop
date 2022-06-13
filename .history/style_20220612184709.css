@@ -1452,3 +1452,6 @@ ul{
   width: 50%;
   height: 100px;
 }
+.col-6 p{
+  padding: 200px;
+}

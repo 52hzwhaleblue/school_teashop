@@ -1434,21 +1434,16 @@ ul{
   padding: 17px 14px;
   margin-top: 10px;
 }
-.contact-wrapper h4 {
+.contact-wrapper h4 span{
   text-align: center;
   border-radius: 10px;
   padding: 12px 20px;
   background-color: #fed23b;
-  font-size: 14px;
-  font-family: "Roboto";
+  font-size: 15px;
 }
 .contact-wrapper p{
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Roboto";
   color: #fff;
   margin-bottom: 0;
-}
-.col-6 img{
-  width: 50%;
-  height: 100px;
 }
